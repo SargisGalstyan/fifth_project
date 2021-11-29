@@ -1,0 +1,350 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    height: 172px;
+}
+
+li, a {
+    font-family: Museo Sans;
+    font-size: 20px;
+    line-height: 24px;
+    color: #4A4A4A;
+    text-decoration: none;
+    padding: 10px;
+    padding-top: 11%;
+}
+
+.logo {
+    width: 25%;
+    height: 84px;
+    cursor: pointer;
+} 
+
+.container {
+    padding: 0px 8px;
+    padding-top: 2%;
+    margin-left: 10%;
+    display: flex;
+}
+
+.nav_bar {
+    display: flex;
+    flex-direction: row;
+    padding: 16px 8px;
+    height: 81%;
+}
+
+.nav_links {
+    list-style: none;
+    display: flex;
+}
+
+.dropdown-logo {
+    width: 12px;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    padding:12px;
+    border-radius: 5px;
+    z-index: 1;
+    width: 281px;
+    height: 350px;
+    background-color: #fff;
+}
+
+#all_courses {
+    position: relative;
+}
+
+#all_courses:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu:hover {
+    display: block;
+    border: lightslategray 1px solid;
+}
+
+.dropdown-items {
+    padding: 5px;
+    padding-right: 2px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.dropdown-divider {
+    border-top: lightslategray 1px solid;
+    height: 0;
+    margin-top: 4px;
+    width: 285px;
+}
+
+.content_left {
+    z-index: 0;
+    height: 83%;
+    min-width: 77%;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+
+.right_element {
+    display: flex;
+    justify-content: start;
+    flex-basis: 50%;
+}
+
+.left_heading {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 50px;
+    line-height: 70px;
+    color: #1F1F33;
+    padding-top: 15%;
+    text-align: initial;
+    width: 92%;
+    font-weight: 500;
+}
+
+
+.banner {
+    border-radius: 50%;
+    box-shadow: rgb(255 250 217) 110px 0px 0px 12px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.par_1 {
+    font: 24px 'Urbanist', sans-serif;
+    color: #1F1F33;
+    width: 74%;
+    font-weight: 500;
+}
+
+.apply_button {
+    width: 101px; 
+    height: 38px;
+    background: #1F1F33;
+    border-radius: 10px;
+    color: #FCEECA;
+    margin-top: 4%;
+    box-shadow: none;
+    transition: ease 0.5s;
+    border: none;
+}
+
+.apply_button:hover {
+    color: #fff;
+    background-color: rgba(59, 130, 246, 0.5);
+}
+
+.container2-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.container3 {
+    background: #FFFDED;
+    height: 454px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading2 {
+    font-family: 'Museo Sans';
+    font-size: 32px;
+    line-height: 44px;
+    padding-top: 1%;
+    text-align: center;
+    color: #333333;
+}
+
+.par_2 {
+    font-family: 'Museo Sans';
+    font-size: 20px;
+    line-height: 28px;
+    padding-top: 2%;
+    color: #333333;
+    width: 65%;
+    text-align: center;
+}
+
+.about_btn {
+    color: #6c757d;
+    border-color: #6c757d;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    width: 92px;
+    height: 38px;
+    margin-top: 3%;
+    font: 16px 'Montserrat, sans-serif';
+    background-color: transparent;
+    border: 1px solid;
+    transition: 0.3s ease;
+}
+
+.about_btn:hover {
+    background-color: #6c757d;
+    color: #FFFDED;
+}
+
+.container5 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 9%;
+}
+
+.heading3 {
+    color: #333333;
+    font: 56px 'Museo Sans';
+}
+
+.container4 {
+    height: 1956px;
+}
+
+.group_img {
+    width: 300px;
+    cursor: pointer;
+}
+
+.group_par {
+    font: 24px 'Museo Sans';
+    color: #4A4A4A;
+    margin-top: 7px;
+    transition: ease 0s;
+    cursor: pointer;
+    width: 72%;
+    text-align: center;
+}
+
+.group_par:hover {
+    text-decoration: underline rgba(59, 130, 246, 0.5);;
+}
+
+.container6 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img_container {
+    padding: 36px;
+    width: 22%;
+    height: 423px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container7 {
+    height: 238px;
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.heading4 {
+    font: 48px 'Museo Sans';
+    color: #333333;
+}
+
+.par_3 {
+    font: 20px 'Museo Sans';
+    color: #333333;
+    padding-top: 12px;
+}
+
+input {
+    margin: 10px;
+    padding: 1px 12px;
+    width: 280px;
+    height: 38px;
+    margin-top: 2%;
+    border-radius: 4px 4px 0px 0px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    transition: ease-in-out;
+}
+
+input:hover {
+    box-shadow: rgba(59, 130, 246, 0.5);
+    border-color: rgba(59, 130, 246, 0.5);
+}
+
+.subscribe_btn {
+    color: #FFDF01;
+    font: 16px 'Open Sans';
+    background-color: #4A4A4A;
+    width: 94px;
+    height: 38px;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 10px;
+    line-height: 24px;
+    border-color: #6c757d;
+    box-shadow: none;
+    transition: ease 0.5s;
+    border: none;
+}
+
+.subscribe_btn:hover {
+    color: #fff;
+    background-color: rgba(59, 130, 246, 0.5);
+}
+
+.par_4 {
+    font: 26px 'Museo Sans';
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+.icons {
+    width: 32px;
+    height: 32px;
+    padding: 2%;
+    cursor: pointer;
+}
+
+.footer_container {
+    height: 302px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 7%;
+}
+
+.footer_heading {
+    font: 22px 'Museo Sans';
+}
+
+.footer_elements {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
